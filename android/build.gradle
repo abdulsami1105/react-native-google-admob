@@ -17,6 +17,7 @@ android {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:+'
-    compile 'com.google.android.gms:play-services-ads:18.1.1'
+    implementation 'com.facebook.react:react-native:+'
+    implementation 'com.google.android.gms:play-services-ads:18.1.1'
+    implementation "androidx.core:core:1.2.0-alpha02"
 }
