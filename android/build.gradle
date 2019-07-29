@@ -18,6 +18,6 @@ android {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.google.android.gms:play-services-ads:18.1.1'
+    implementation 'com.google.android.gms:play-services-ads:17.2.1'
     implementation "androidx.core:core:1.2.0-alpha02"
 }
