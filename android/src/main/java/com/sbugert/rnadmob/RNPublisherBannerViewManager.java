@@ -1,4 +1,4 @@
-package com.sbugert.rnadmob;
+package com.theweavrs.rnadmob;
 
 import android.content.Context;
 import android.view.View;

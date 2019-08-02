@@ -1,4 +1,4 @@
-package com.sbugert.rnadmob;
+package com.theweavrs.rnadmob;
 
 import android.os.Handler;
 import android.os.Looper;
