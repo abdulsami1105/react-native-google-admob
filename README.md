@@ -1,4 +1,4 @@
-# rn-admob [![npm](https://img.shields.io/npm/v/react-native-admob.svg)](https://www.npmjs.com/package/react-native-admob) [![npm (next)](https://img.shields.io/npm/v/react-native-admob/next.svg)](https://www.npmjs.com/package/react-native-admob)
+# rn-admob [![npm](https://img.shields.io/npm/v/rn-admob.svg)](https://www.npmjs.com/package/rn-admob)
 
 _This is a direct fork of sbugert/react-native-admob so much thanks to @sbugert. The original library was unmaintained so hopefully, this fork will remedy most of the issues. The module was renamed to allow for publishing of new packages on npm._
 
@@ -8,15 +8,13 @@ The banner types are implemented as components while the interstitial and reward
 
 ## Installation
 
-A new npm module is in the works. For now use:
-
 **npm:**
 
-    npm i --save https://github.com/theweavrs/rn-admob.git
+    npm i --save rn-admob
 
 **Yarn:**
     
-    yarn add https://github.com/theweavrs/rn-admob.git
+    yarn add rn-admob
    
 ## Linking
 
