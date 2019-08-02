@@ -26,14 +26,33 @@ You won't need to do anything. Autolinking will do all the work for you.
 
 In order to use this library, you have to link it to your project first. There's excellent documentation on how to do this in the [React Native Docs](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content).
 
+### Using Cocoapods for iOS
+
+1. Run `react-native link` in your project directory. Or add this to your Podfile
+```
+pod 'RNAdMobManager', :path => '../node_modules/react-native-admob'
+```
+2. `cd ios` and run `pod install`
+3. Add [Google Mobile Ads SDK](https://developers.google.com/admob/ios/quick-start#import_the_mobile_ads_sdk) to your Xcode project using Cocoapods
+4. Open your .xcworkspace project
+5. Double-click to `Pods` project, select `RNAdMobManager` in TARGET, click Build Pharses, expand `Link Binary With Libraries`, drag `GoogleMobileAds.framework` from Pods > Pods > Google-Mobile-Ads-SDK to `Link Binary With Libraries` you have expanded before.
+
 #### iOS
 
 For iOS you will have to add the [Google Mobile Ads SDK](https://developers.google.com/admob/ios/quick-start#import_the_mobile_ads_sdk) to your Xcode project.
 
 #### Android
 
-On Android the AdMob library code is part of Play Services, which is automatically added when this library is linked.
+On Android the AdMob library code is part of Play Services, which is automatically added when this library is linked. But, you need to add your AdMob App ID to your app's `AndroidManifest.xml` by adding the `<meta-data>` tag shown below.
 
+```xml
+<!-- Put this inside <application></application> -->
+<meta-data
+  android:name="com.google.android.gms.ads.APPLICATION_ID"
+  android:value="YOUR_ADMOB_APP_ID"/>
+```
+Replace YOUR_ADMOB_APP_ID with your AdMob App ID. 
+  
 ## Usage
 
 ```jsx
