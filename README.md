@@ -1,6 +1,6 @@
 # rn-admob [![npm](https://img.shields.io/npm/v/rn-admob.svg)](https://www.npmjs.com/package/rn-admob)
 
-_This is a direct fork of sbugert/react-native-admob so much thanks to @sbugert. The original library was unmaintained so hopefully, this fork will remedy most of the issues. The module was renamed to allow for publishing of new packages on npm._
+_This is a direct fork of sbugert/rn-admob so much thanks to @sbugert. The original library was unmaintained so hopefully, this fork will remedy most of the issues. The module was renamed to allow for publishing of new packages on npm._
 
 A react-native module for Google AdMob Banners, Interstitials, and Rewarded Videos, and also DFP Banners.
 
@@ -13,12 +13,13 @@ The banner types are implemented as components while the interstitial and reward
     npm i --save rn-admob
 
 **Yarn:**
-    
-    yarn add rn-admob
-   
+  
+ yarn add rn-admob
+
 ## Linking
 
 ### For RN >= 0.60
+
 You won't need to do anything. Autolinking will do all the work for you.
 
 ### For RN < 0.60
@@ -41,7 +42,7 @@ import {
   AdMobInterstitial,
   PublisherBanner,
   AdMobRewarded,
-} from 'react-native-admob'
+} from 'rn-admob'
 
 // Display a banner
 <AdMobBanner
@@ -80,7 +81,7 @@ For a full example reference to the [example project](Example).
 
 ##### `adSize`
 
-*Corresponding to [iOS framework banner size constants](https://developers.google.com/admob/ios/banner)*
+_Corresponding to [iOS framework banner size constants](https://developers.google.com/admob/ios/banner)_
 
 <table>
   <thead>
@@ -134,7 +135,7 @@ For a full example reference to the [example project](Example).
   </tbody>
 </table>
 
-*Note: There is no `smartBannerPortrait` and `smartBannerLandscape` on Android. Both prop values will map to `smartBanner`*
+_Note: There is no `smartBannerPortrait` and `smartBannerLandscape` on Android. Both prop values will map to `smartBanner`_
 
 ##### `onAdLoaded`
 
@@ -160,8 +161,7 @@ Accepts a function. Called when a user click will open another app (such as the 
 
 Accepts a function. Called when the size of the banner changes. The function is called with an object containing the width and the height.
 
-
-*Above names correspond to the [Ad lifecycle event callbacks](https://developers.google.com/admob/android/banner#ad_events)*
+_Above names correspond to the [Ad lifecycle event callbacks](https://developers.google.com/admob/android/banner#ad_events)_
 
 ### PublisherBanner
 
@@ -195,7 +195,7 @@ Sets the AdUnit ID for all future ad requests.
 
 Sets the devices which are served test ads.
 
-*For simulators/emulators you can use `AdMobInterstitial.simulatorId` for the test device ID.*
+_For simulators/emulators you can use `AdMobInterstitial.simulatorId` for the test device ID._
 
 ##### `requestAd()`
 
@@ -208,7 +208,6 @@ Shows an interstitial and returns a promise, which resolves when an ad is going 
 ##### `isReady(callback)`
 
 Calls callback with a boolean value whether the interstitial is ready to be shown.
-
 
 #### Events
 
@@ -270,7 +269,7 @@ Sets the AdUnit ID for all future ad requests.
 
 Sets the devices which are served test ads.
 
-*For simulators/emulators you can use `AdMobRewarded.simulatorId` for the test device ID.*
+_For simulators/emulators you can use `AdMobRewarded.simulatorId` for the test device ID._
 
 ##### `requestAd()`
 
@@ -344,4 +343,4 @@ Unfortunately, events are not consistent across iOS and Android. To have one uni
 
 ## TODO
 
-- [ ] Support [Ad Targeting](https://developers.google.com/admob/ios/targeting) (RFC: [#166](https://github.com/sbugert/react-native-admob/pull/166))
+-   [ ] Support [Ad Targeting](https://developers.google.com/admob/ios/targeting) (RFC: [#166](https://github.com/sbugert/rn-admob/pull/166))
