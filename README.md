@@ -1,6 +1,6 @@
 # react-native-admob [![npm](https://img.shields.io/npm/v/react-native-admob.svg)](https://www.npmjs.com/package/react-native-admob) [![npm (next)](https://img.shields.io/npm/v/react-native-admob/next.svg)](https://www.npmjs.com/package/react-native-admob)
 
-### ⚠️ Please note, the master branch tracks development of version 2 of this library, which is currently in beta. For version 1 please check out the [1.x branch](https://github.com/sbugert/react-native-admob/tree/1.x).
+_This is a direct fork of sbugert/react-native-admob so much thanks to @sbugert. The original library was unmaintained so hopefully, this fork will remedy most of the issues_
 
 A react-native module for Google AdMob Banners, Interstitials, and Rewarded Videos, and also DFP Banners.
 
@@ -8,23 +8,30 @@ The banner types are implemented as components while the interstitial and reward
 
 ## Installation
 
-You can use npm or Yarn to install the latest beta version:
+A new npm module is in the works. For now use:
 
 **npm:**
 
-    npm i --save react-native-admob@next
+    npm i --save https://github.com/theweavrs/rn-admob.git
 
 **Yarn:**
+    
+    yarn add https://github.com/theweavrs/rn-admob.git
+   
+## Linking
 
-    yarn add react-native-admob@next
+### For RN >= 0.60
+You won't need to do anything. Autolinking will do all the work for you.
+
+### For RN < 0.60
 
 In order to use this library, you have to link it to your project first. There's excellent documentation on how to do this in the [React Native Docs](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content).
 
-### iOS
+#### iOS
 
 For iOS you will have to add the [Google Mobile Ads SDK](https://developers.google.com/admob/ios/quick-start#import_the_mobile_ads_sdk) to your Xcode project.
 
-### Android
+#### Android
 
 On Android the AdMob library code is part of Play Services, which is automatically added when this library is linked.
 
