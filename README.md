@@ -8,7 +8,7 @@ The banner types are implemented as components while the interstitial and reward
 
 ## Installation
 
-**Note:** The package name `react-native-google-admob` seems to occupied on npm so please use direct repo url for now. The package is unmaintained (last commit 3 years ago) so I have sent an email (also made an issue) asking for ownership. As soon as I get it, I will update the README.
+**Note: The package name `react-native-google-admob` seems to occupied on npm so please use direct repo url for now. The package is unmaintained (last commit 3 years ago) so I have sent an email (also made an issue) asking for ownership. As soon as I get it, I will update the README.**
 
 **npm:**
 
@@ -16,7 +16,7 @@ The banner types are implemented as components while the interstitial and reward
 
 **Yarn:**
 
-yarn add https://github.com/theweavrs/react-native-google-admob
+    yarn add https://github.com/theweavrs/react-native-google-admob
 
 ## Linking
 
