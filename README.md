@@ -1,4 +1,4 @@
-# react-native-google-admob [![npm](https://img.shields.io/npm/v/react-native-google-admob.svg)](https://www.npmjs.com/package/react-native-google-admob)
+# react-native-google-admob
 
 _This is a direct fork of sbugert/react-native-admob so much thanks to @sbugert. The original library was unmaintained so hopefully, this fork will remedy most of the issues. The module was renamed to allow for publishing of new packages on npm._
 
@@ -8,13 +8,15 @@ The banner types are implemented as components while the interstitial and reward
 
 ## Installation
 
+**Note:** The package name `react-native-google-admob` seems to occupied on npm so please use direct repo url for now. The package is unmaintained (last commit 3 years ago) so I have sent an email (also made an issue) asking for ownership. As soon as I get it, I will update the README.
+
 **npm:**
 
-    npm i --save react-native-google-admob
+    npm i --save https://github.com/theweavrs/react-native-google-admob
 
 **Yarn:**
 
-yarn add react-native-google-admob
+yarn add https://github.com/theweavrs/react-native-google-admob
 
 ## Linking
 
@@ -29,9 +31,11 @@ In order to use this library, you have to link it to your project first. There's
 ### Using Cocoapods for iOS
 
 1. Run `react-native link` in your project directory. Or add this to your Podfile
+
 ```
-pod 'RNAdMobManager', :path => '../node_modules/react-native-admob'
+pod 'RNAdMobManager', :path => '../node_modules/react-native-google-admob'
 ```
+
 2. `cd ios` and run `pod install`
 3. Add [Google Mobile Ads SDK](https://developers.google.com/admob/ios/quick-start#import_the_mobile_ads_sdk) to your Xcode project using Cocoapods
 4. Open your .xcworkspace project
@@ -51,8 +55,9 @@ On Android the AdMob library code is part of Play Services, which is automatical
   android:name="com.google.android.gms.ads.APPLICATION_ID"
   android:value="YOUR_ADMOB_APP_ID"/>
 ```
-Replace YOUR_ADMOB_APP_ID with your AdMob App ID. 
-  
+
+Replace YOUR_ADMOB_APP_ID with your AdMob App ID.
+
 ## Usage
 
 ```jsx
