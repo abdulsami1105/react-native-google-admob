@@ -1,6 +1,6 @@
 {
     "name": "react-native-google-admob",
-    "version": "1.0.3",
+    "version": "1.0.0",
     "description": "The most definitive Google Admob library for React Native.",
     "author": "theweavrs <abdullahatta31@gmail.com>",
     "main": "index.js",
