@@ -1,4 +1,4 @@
-package com.theweavrs.rnadmob;
+package com.theweavrs.rngoogleadmob;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

@@ -1,4 +1,4 @@
-package com.theweavrs.rnadmob;
+package com.theweavrs.rngoogleadmob;
 
 import android.os.Handler;
 import android.os.Looper;

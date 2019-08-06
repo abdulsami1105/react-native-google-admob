@@ -1,4 +1,4 @@
-package com.theweavrs.rnadmob;
+package com.theweavrs.rngoogleadmob;
 
 import android.content.Context;
 import android.view.View;

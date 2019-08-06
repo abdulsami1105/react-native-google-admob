@@ -1,5 +1,5 @@
 {
-    "name": "rn-admob",
+    "name": "react-native-google-admob",
     "version": "1.0.3",
     "description": "The most definitive Google Admob library for React Native.",
     "author": "theweavrs <abdullahatta31@gmail.com>",
@@ -7,7 +7,7 @@
     "license": "BSD-2-Clause",
     "repository": {
         "type": "git",
-        "url": "git@github.com:theweavrs/rn-admob.git"
+        "url": "git@github.com:theweavrs/react-native-google-admob.git"
     },
     "dependencies": {
         "prop-types": "^15.7.2"

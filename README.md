@@ -1,6 +1,6 @@
-# rn-admob [![npm](https://img.shields.io/npm/v/rn-admob.svg)](https://www.npmjs.com/package/rn-admob)
+# react-native-google-admob [![npm](https://img.shields.io/npm/v/react-native-google-admob.svg)](https://www.npmjs.com/package/react-native-google-admob)
 
-_This is a direct fork of sbugert/rn-admob so much thanks to @sbugert. The original library was unmaintained so hopefully, this fork will remedy most of the issues. The module was renamed to allow for publishing of new packages on npm._
+_This is a direct fork of sbugert/react-native-admob so much thanks to @sbugert. The original library was unmaintained so hopefully, this fork will remedy most of the issues. The module was renamed to allow for publishing of new packages on npm._
 
 A react-native module for Google AdMob Banners, Interstitials, and Rewarded Videos, and also DFP Banners.
 
@@ -10,11 +10,11 @@ The banner types are implemented as components while the interstitial and reward
 
 **npm:**
 
-    npm i --save rn-admob
+    npm i --save react-native-google-admob
 
 **Yarn:**
-  
- yarn add rn-admob
+
+yarn add react-native-google-admob
 
 ## Linking
 
@@ -42,7 +42,7 @@ import {
   AdMobInterstitial,
   PublisherBanner,
   AdMobRewarded,
-} from 'rn-admob'
+} from 'react-native-google-admob'
 
 // Display a banner
 <AdMobBanner
@@ -343,4 +343,4 @@ Unfortunately, events are not consistent across iOS and Android. To have one uni
 
 ## TODO
 
--   [ ] Support [Ad Targeting](https://developers.google.com/admob/ios/targeting) (RFC: [#166](https://github.com/sbugert/rn-admob/pull/166))
+-   [ ] Support [Ad Targeting](https://developers.google.com/admob/ios/targeting) (RFC: [#166](https://github.com/sbugert/react-native-google-admob/pull/166))
