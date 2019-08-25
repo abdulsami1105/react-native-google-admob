@@ -56,7 +56,7 @@ On Android the AdMob library code is part of Play Services, which is automatical
   android:value="YOUR_ADMOB_APP_ID"/>
 ```
 
-Replace YOUR_ADMOB_APP_ID with your AdMob App ID.
+Replace `YOUR_ADMOB_APP_ID` with your `AdMob App ID`.
 
 ## Usage
 
