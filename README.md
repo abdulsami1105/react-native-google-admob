@@ -12,11 +12,11 @@ The banner types are implemented as components while the interstitial and reward
 
 **npm:**
 
-    npm i --save https://github.com/theweavrs/react-native-google-admob
+    npm i --save https://github.com/thecodrr/react-native-google-admob
 
 **Yarn:**
 
-    yarn add https://github.com/theweavrs/react-native-google-admob
+    yarn add https://github.com/thecodrr/react-native-google-admob
 
 ## Linking
 
